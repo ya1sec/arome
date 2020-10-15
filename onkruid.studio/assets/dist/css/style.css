@@ -1,0 +1,49 @@
+.sorticon {
+  width: 0.45em;
+  height: auto;
+}
+
+.title-head {
+  margin-top: 3em;
+}
+
+.sphr {
+  width: 1.2em;
+  height: 1.2em;
+  margin: auto;
+  border-radius: 50%;
+  float: left;
+  box-shadow: 0 0 10px #eeeeee, -10px 0 40px #ffffff, 10px 0 40px #420716,
+    inset 0 0 50px #eeeeee (26, 25, 25), inset 50px 0 40px #ffffff,
+    inset -50px 0 40px #0ff, inset 50px 0 300px #ffffff,
+    inset -50px 0 300px #00ffff;
+  animation: pulsate 6s linear infinite;
+}
+
+.sphr2 {
+  width: 3em;
+  height: 3em;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #eeeeee, -10px 0 40px #ffffff, 10px 0 40px #420716,
+    inset 0 0 50px #eeeeee (26, 25, 25), inset 50px 0 40px #ffffff,
+    inset -50px 0 40px #00ffff, inset 50px 0 300px #ffffff,
+    inset -50px 0 300px #00ffff;
+  animation: pulsate2 6s linear infinite;
+}
+
+@keyframes pulsate {
+  50% {
+    box-shadow: 0 0 10px #eeeeee, 10px 0 40px #ffffff, -10px 0 40px #0ff,
+      inset 0 0 50px #eeeeee, inset -50px 0 40px #ffffff, inset 50px 0 40px #0ff,
+      inset -50px 0 300px #ffffff, inset 50px 0 300px #0ff;
+  }
+}
+
+@keyframes pulsate2 {
+  50% {
+    box-shadow: 0 0 10px #eeeeee, 10px 0 40px #ffffff, -10px 0 40px #0ff,
+      inset 0 0 50px #eeeeee, inset -50px 0 40px #ffffff, inset 50px 0 40px #0ff,
+      inset -50px 0 300px #ffffff, inset 50px 0 300px #0ff;
+  }
+}
